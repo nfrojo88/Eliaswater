@@ -12,7 +12,7 @@ const Equipment = () => {
       origin: "Germany",
       capability: "1000m depth",
       category: "Primary Drilling Rig",
-      image: "https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048818/2_s9zrjv.jpg?auto=compress&cs=tinysrgb&w=1200",
       features: [
         "High torque capability up to 50,000 Nm",
         "Dual-mode drilling (Mud/DTH)",
@@ -41,7 +41,7 @@ const Equipment = () => {
       specs: "1200 CFM – 24 BAR",
       category: "Air Compression",
       description: "High-capacity air compressor for DTH drilling operations",
-      image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752051938/9_ioy39c.jpg?auto=compress&cs=tinysrgb&w=800",
       features: [
         "1200 CFM air delivery",
         "24 BAR operating pressure",
@@ -56,7 +56,7 @@ const Equipment = () => {
       specs: "2000 l/m capacity",
       category: "Drilling Support",
       description: "High-pressure mud circulation pumps for drilling operations",
-      image: "https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048820/5_gstrd5.jpg?auto=compress&cs=tinysrgb&w=800",
       features: [
         "2000 liters/minute capacity",
         "Variable pressure control",
@@ -71,7 +71,7 @@ const Equipment = () => {
       specs: "250KVA & 85KVA",
       category: "Power Supply",
       description: "Reliable power generation for remote drilling sites",
-      image: "https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048809/1_uiw0ra.jpg?auto=compress&cs=tinysrgb&w=800",
       features: [
         "250KVA primary generator",
         "85KVA backup generator",
@@ -86,7 +86,7 @@ const Equipment = () => {
       specs: "Pickups, Crane Trucks, Forklifts",
       category: "Logistics",
       description: "Complete fleet for equipment transportation and site logistics",
-      image: "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048829/6_emwdwc.jpg?auto=compress&cs=tinysrgb&w=800",
       features: [
         "Heavy-duty pickup trucks",
         "Crane trucks for equipment handling",
@@ -101,7 +101,7 @@ const Equipment = () => {
       specs: "Up to 500m capability",
       category: "Testing Equipment",
       description: "Precision instruments for well depth and water level measurement",
-      image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752051936/8_gd3mew.jpg?auto=compress&cs=tinysrgb&w=800",
       features: [
         "500m measurement range",
         "Digital display",
@@ -116,7 +116,7 @@ const Equipment = () => {
       specs: "Complete drilling tool set",
       category: "Drilling Tools",
       description: "Comprehensive set of drilling accessories and consumables",
-      image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048818/2_s9zrjv.jpg?auto=compress&cs=tinysrgb&w=800",
       features: [
         "Stabilizers and drill collars",
         "Rock bits and DTH bits",
@@ -245,7 +245,7 @@ const Equipment = () => {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046395/photo_2025-07-06_12-55-04_ma8k3d.jpg?auto=compress&cs=tinysrgb&w=1920"
             alt="Our Equipment"
             className="hero-image"
           />
@@ -422,7 +422,7 @@ const Equipment = () => {
                 className="featured-image"
               />
               <img 
-                src="https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048823/7_u3rv2r.jpg?auto=compress&cs=tinysrgb&w=800" 
                 alt="Equipment maintenance" 
                 className="featured-image mt-12"
               />
@@ -530,7 +530,7 @@ const Equipment = () => {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046395/photo_2025-07-06_12-55-04_ma8k3d.jpg?auto=compress&cs=tinysrgb&w=1920"
             alt="Experience our equipment"
             className="w-full h-full object-cover"
           />
