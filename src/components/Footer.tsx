@@ -38,13 +38,13 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center space-x-3 mb-8">
-              <div className="bg-primary-red p-3 rounded-full">
-                <Droplets className="h-8 w-8 text-white" />
-              </div>
-              <div className="flex flex-col">
-                <span className="font-bold text-2xl">Elias Water Well</span>
-                <span className="text-gray-400">Drilling & Machineries</span>
-              </div>
+                <div className="bg-white p-3 rounded-full flex items-center justify-center">
+                <img
+                  src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752054960/logo_1_qyjwit.png"
+                  alt="Elias Water Well Logo"
+                  className="h-16 w-16 object-contain"
+                />
+                </div>
             </Link>
             <p className="text-gray-300 mb-8 max-w-md text-lg leading-relaxed">
               Certified Grade I Water Well Drilling Contractor providing professional, 
