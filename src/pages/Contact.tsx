@@ -98,7 +98,7 @@ const Contact = () => {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046395/photo_2025-07-06_12-55-04_ma8k3d.jpg?auto=compress&cs=tinysrgb&w=1920"
             alt="Get in Touch"
             className="hero-image"
           />
@@ -305,47 +305,57 @@ const Contact = () => {
             {/* Map and Office Info */}
             <div className="space-y-10">
               <div className="bg-white rounded-2xl p-12 shadow-lg">
-                <h3 className="text-3xl font-bold text-gray-900 mb-8">Visit Our Office</h3>
-                <div className="space-y-6">
-                  <div className="flex items-start space-x-6">
-                    <div className="bg-red-50 p-4 rounded-xl">
-                      <MapPin className="h-8 w-8 text-primary-red" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-gray-900 mb-2 text-lg">Main Office</h4>
-                      <p className="text-gray-600 text-lg">
-                        Kelela Building, 3rd Floor<br />
-                        Jemo, Addis Ababa<br />
-                        Ethiopia
-                      </p>
-                    </div>
-                  </div>
+              <h3 className="text-3xl font-bold text-gray-900 mb-8">Visit Our Office</h3>
+              <div className="space-y-6">
+                <div className="flex items-start space-x-6">
+                <div className="bg-red-50 p-4 rounded-xl">
+                  <MapPin className="h-8 w-8 text-primary-red" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-2 text-lg">Main Office</h4>
+                  <p className="text-gray-600 text-lg">
+                  Kelela Building, 3rd Floor<br />
+                  Jemo, Addis Ababa<br />
+                  Ethiopia
+                  </p>
+                </div>
+                </div>
 
-                  <div className="flex items-start space-x-6">
-                    <div className="bg-red-50 p-4 rounded-xl">
-                      <MapPin className="h-8 w-8 text-primary-red" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-gray-900 mb-2 text-lg">Workshop & Garage</h4>
-                      <p className="text-gray-600 text-lg">
-                        Dalatti<br />
-                        Gelan Gudo Sub City<br />
-                        Ethiopia
-                      </p>
-                    </div>
-                  </div>
+                <div className="flex items-start space-x-6">
+                <div className="bg-red-50 p-4 rounded-xl">
+                  <MapPin className="h-8 w-8 text-primary-red" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-2 text-lg">Workshop & Garage</h4>
+                  <p className="text-gray-600 text-lg">
+                  Dalatti<br />
+                  Gelan Gudo Sub City<br />
+                  Ethiopia
+                  </p>
+                </div>
                 </div>
               </div>
-
-              {/* Interactive Map Placeholder */}
-              <div className="bg-gray-200 rounded-2xl h-80 flex items-center justify-center">
-                <div className="text-center text-gray-500">
-                  <MapPin className="h-16 w-16 mx-auto mb-4" />
-                  <p className="font-bold text-lg">Interactive Map</p>
-                  <p>Addis Ababa Office Location</p>
-                  <p className="text-sm mt-2">Click to open in Google Maps</p>
-                </div>
               </div>
+
+              {/* Embedded Google Map */}
+              <a
+              href="https://www.google.com/maps?q=Kelela+Building,+Jemo,+Addis+Ababa,+Ethiopia"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-gray-200 rounded-2xl overflow-hidden h-80 hover:ring-4 hover:ring-primary-red transition"
+              title="Open in Google Maps"
+              >
+              <iframe
+                title="Kelela Building, Jemo, Addis Ababa Map"
+                src="https://www.google.com/maps?q=Kelela+Building,+Jemo,+Addis+Ababa,+Ethiopia&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0, width: '100%', height: '100%' }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+              </a>
             </div>
           </div>
         </div>
@@ -401,7 +411,7 @@ const Contact = () => {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046386/photo_2025-07-06_12-54-31_eunlzk.jpg?auto=compress&cs=tinysrgb&w=1920"
             alt="Emergency services"
             className="w-full h-full object-cover"
           />
