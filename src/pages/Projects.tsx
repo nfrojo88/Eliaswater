@@ -283,7 +283,7 @@ const Projects = () => {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046386/photo_2025-07-06_12-54-31_eunlzk.jpg?auto=compress&cs=tinysrgb&w=1920"
             alt="Our Projects"
             className="hero-image"
           />
