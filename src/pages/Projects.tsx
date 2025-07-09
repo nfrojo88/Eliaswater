@@ -18,7 +18,7 @@ const Projects = () => {
       status: "Productive",
       category: "NGO",
       completionDate: "March 2024",
-      image: "https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046385/photo_2025-07-06_12-52-17_uszk6l.jpg?auto=compress&cs=tinysrgb&w=1200",
       description: "Large-scale community water project providing clean water access to over 5,000 residents",
       specifications: {
         depth: "300 meters",
@@ -32,9 +32,9 @@ const Projects = () => {
       outcome: "Successfully completed 2 weeks ahead of schedule with excellent water yield",
       testimonial: "Exceptional service delivery with professional execution. The project exceeded our expectations in both quality and timeline.",
       gallery: [
-        "https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1200",
-        "https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&w=1200",
-        "https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048816/4_di3evi.jpg?auto=compress&cs=tinysrgb&w=1200",
+        "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046381/photo_2025-07-06_12-53-41_kuzow2.jpg?auto=compress&cs=tinysrgb&w=1200",
+        "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046372/photo_2025-07-06_12-54-53_bc63ju.jpg?auto=compress&cs=tinysrgb&w=1200"
       ]
     },
     {
@@ -47,7 +47,7 @@ const Projects = () => {
       status: "Productive",
       category: "Private",
       completionDate: "January 2024",
-      image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048818/3_fyqzvp.jpg?auto=compress&cs=tinysrgb&w=1200",
       description: "Agricultural irrigation well for large-scale farming operations",
       specifications: {
         depth: "250 meters",
@@ -61,8 +61,8 @@ const Projects = () => {
       outcome: "Consistent water supply supporting 50 hectares of agricultural land",
       testimonial: "Outstanding technical expertise and reliable service. Our farm productivity has increased significantly.",
       gallery: [
-        "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=1200",
-        "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048820/5_gstrd5.jpg?auto=compress&cs=tinysrgb&w=1200",
+        "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048818/2_s9zrjv.jpg?auto=compress&cs=tinysrgb&w=1200"
       ]
     },
     {
@@ -75,7 +75,7 @@ const Projects = () => {
       status: "Completed",
       category: "Government",
       completionDate: "November 2023",
-      image: "https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048818/2_s9zrjv.jpg?auto=compress&cs=tinysrgb&w=1200",
       description: "Government-funded rural water supply project serving multiple villages",
       specifications: {
         depth: "180 meters",
@@ -89,8 +89,8 @@ const Projects = () => {
       outcome: "Reliable water supply established for 3 rural communities",
       testimonial: "Professional execution of a complex rural project with excellent results.",
       gallery: [
-        "https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1200",
-        "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048818/2_s9zrjv.jpg?auto=compress&cs=tinysrgb&w=1200",
+        "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048818/3_fyqzvp.jpg?auto=compress&cs=tinysrgb&w=1200"
       ]
     },
     {
@@ -103,7 +103,7 @@ const Projects = () => {
       status: "Productive",
       category: "Private",
       completionDate: "September 2023",
-      image: "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752051936/8_gd3mew.jpg?auto=compress&cs=tinysrgb&w=1200",
       description: "Deep commercial well for large-scale agricultural irrigation",
       specifications: {
         depth: "320 meters",
@@ -117,7 +117,7 @@ const Projects = () => {
       outcome: "High-yield well supporting extensive agricultural operations",
       testimonial: "Exceptional drilling capabilities and professional service delivery.",
       gallery: [
-        "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752051938/9_ioy39c.jpg?auto=compress&cs=tinysrgb&w=1200"
       ]
     },
     {
@@ -130,7 +130,7 @@ const Projects = () => {
       status: "Productive",
       category: "NGO",
       completionDate: "July 2023",
-      image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752051938/9_ioy39c.jpg?auto=compress&cs=tinysrgb&w=1200",
       description: "Water supply system for health center and surrounding community",
       specifications: {
         depth: "275 meters",
@@ -144,7 +144,7 @@ const Projects = () => {
       outcome: "Clean, reliable water supply for health center and 2,000 community members",
       testimonial: "Outstanding project management and technical execution. Critical for our health services.",
       gallery: [
-        "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048820/5_gstrd5.jpg?auto=compress&cs=tinysrgb&w=1200"
       ]
     },
     {
@@ -157,7 +157,7 @@ const Projects = () => {
       status: "In Progress",
       category: "Government",
       completionDate: "Expected May 2024",
-      image: "https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048820/5_gstrd5.jpg?auto=compress&cs=tinysrgb&w=1200",
       description: "Major urban water supply project to support city expansion",
       specifications: {
         depth: "400 meters",
@@ -171,7 +171,7 @@ const Projects = () => {
       outcome: "Project ongoing - 75% complete",
       testimonial: "Professional approach to complex urban drilling project.",
       gallery: [
-        "https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048820/5_gstrd5.jpg?auto=compress&cs=tinysrgb&w=1200"
       ]
     }
   ];
