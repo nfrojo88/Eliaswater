@@ -103,20 +103,7 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Floating Stats Cards */}
-            <div className="flex justify-center">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl">
-              {benefits.map((benefit, index) => (
-                <div key={index} className="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                <div className="text-primary-red mb-4">
-                  {benefit.icon}
-                </div>
-                <h3 className="font-bold text-xl mb-3">{benefit.title}</h3>
-                <p className="text-gray-200">{benefit.description}</p>
-                </div>
-              ))}
-              </div>
-            </div>
+            
           </div>
         </div>
 
@@ -124,6 +111,24 @@ const Home = () => {
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
             <div className="w-1 h-3 bg-white rounded-full mt-2"></div>
+          </div>
+        </div>
+      </section>
+      <section> 
+        <div className="flex justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl">
+        {benefits.map((benefit, index) => (
+          <div
+            key={index}
+            className="bg-gradient-to-br from-red-100 via-white to-red-50/80 p-8 rounded-2xl border border-red-200 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+          >
+            <div className="text-primary-red mb-4">
+          {benefit.icon}
+            </div>
+            <h3 className="font-bold text-xl mb-3 text-primary-red">{benefit.title}</h3>
+            <p className="text-gray-700">{benefit.description}</p>
+          </div>
+        ))}
           </div>
         </div>
       </section>
