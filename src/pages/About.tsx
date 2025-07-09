@@ -30,28 +30,28 @@ const About = () => {
       name: "Elias Abaw",
       position: "Founder & Managing Director",
       bio: "Over 15 years of experience in water well drilling and project management across Ethiopia.",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: " ?auto=compress&cs=tinysrgb&w=800",
       expertise: ["Project Management", "Business Development", "Strategic Planning"]
     },
     {
       name: "Dr. Tadesse Mekuria",
       position: "Chief Hydrogeologist",
       bio: "PhD in Hydrogeology with extensive experience in groundwater assessment and aquifer analysis.",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: " ?auto=compress&cs=tinysrgb&w=800",
       expertise: ["Hydrogeology", "Aquifer Testing", "Water Resource Management"]
     },
     {
       name: "Eng. Meseret Bekele",
       position: "Operations Manager",
       bio: "Civil Engineer specializing in drilling operations and equipment management.",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: " ?auto=compress&cs=tinysrgb&w=800",
       expertise: ["Drilling Operations", "Equipment Management", "Quality Control"]
     },
     {
       name: "Ato Girma Wolde",
       position: "Senior Drilling Superintendent",
       bio: "20+ years of hands-on drilling experience with expertise in complex geological formations.",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: " ?auto=compress&cs=tinysrgb&w=800",
       expertise: ["Field Operations", "Drilling Techniques", "Site Supervision"]
     }
   ];
@@ -99,7 +99,7 @@ const About = () => {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046386/photo_2025-07-06_12-54-31_eunlzk.jpg?auto=compress&cs=tinysrgb&w=1920"
             alt="About Elias Water Well"
             className="hero-image"
           />
@@ -167,12 +167,12 @@ const About = () => {
             </div>
             <div className="image-grid-2 gap-6">
               <img 
-                src="https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046369/photo_2025-07-06_12-52-17_2_fb8rml.jpg?auto=compress&cs=tinysrgb&w=800" 
                 alt="Drilling operations" 
                 className="featured-image"
               />
               <img 
-                src="https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048816/4_di3evi.jpg?auto=compress&cs=tinysrgb&w=800" 
                 alt="Workshop facility" 
                 className="featured-image mt-12"
               />
@@ -339,7 +339,7 @@ const About = () => {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048820/5_gstrd5.jpg?auto=compress&cs=tinysrgb&w=1920"
             alt="Equipment background"
             className="w-full h-full object-cover"
           />
