@@ -33,17 +33,13 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-3">
-            <div className={`p-2 rounded-full ${isScrolled || !isHomePage ? 'bg-red-50' : 'bg-white/20'}`}>
-              <Droplets className={`h-8 w-8 ${isScrolled || !isHomePage ? 'text-primary-red' : 'text-white'}`} />
-            </div>
-            <div className="flex flex-col">
-              <span className={`font-bold text-xl ${isScrolled || !isHomePage ? 'text-gray-900' : 'text-white'}`}>
-                Elias Water Well
-              </span>
-              <span className={`text-sm ${isScrolled || !isHomePage ? 'text-gray-600' : 'text-red-100'}`}>
-                Drilling & Machineries
-              </span>
-            </div>
+          <div className={`p-2 rounded-full ${isScrolled || !isHomePage ? 'bg-red-50' : 'bg-white/20'}`}>
+             <img
+             src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752054960/logo_1_qyjwit.png"
+             alt="Elias Water Well Logo"
+             className="h-8 w-8 object-contain"
+             />
+          </div>            
           </Link>
 
           {/* Desktop Navigation */}
