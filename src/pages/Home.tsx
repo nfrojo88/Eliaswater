@@ -25,17 +25,17 @@ const Home = () => {
     {
       title: "Deep Well Drilling",
       description: "Professional drilling services up to 1000m depth with advanced equipment",
-      image: "https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048816/4_di3evi.jpg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       title: "Well Rehabilitation",
       description: "Comprehensive diagnosis and reactivation of existing water wells",
-      image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048820/5_gstrd5.jpg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       title: "Water Quality Testing",
       description: "Complete physicochemical and biological analysis for safe water",
-      image: "https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048818/2_s9zrjv.jpg?auto=compress&cs=tinysrgb&w=1200"
     }
   ];
 
@@ -44,23 +44,23 @@ const Home = () => {
       quote: "Reliable and efficient service with great after-support. The team's professionalism and technical expertise made our water access project a complete success.",
       author: "Amref Project Coordinator",
       rating: 5,
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1751271594/photo_2024-12-19_00-51-56_tjeikh.jpg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       quote: "Outstanding drilling capabilities and professional service delivery. They completed our 300m well ahead of schedule with excellent water yield.",
       author: "Miskir Abate",
       rating: 5,
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1751271594/photo_2024-12-19_00-51-56_tjeikh.jpg?auto=compress&cs=tinysrgb&w=400"
     }
   ];
 
   const projectGallery = [
-    "https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046385/photo_2025-07-06_12-52-17_uszk6l.jpg?auto=compress&cs=tinysrgb&w=800",
+    "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046369/photo_2025-07-06_12-52-17_2_fb8rml.jpg?auto=compress&cs=tinysrgb&w=800",
+    "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046381/photo_2025-07-06_12-53-41_kuzow2.jpg?auto=compress&cs=tinysrgb&w=800",
+    "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046386/photo_2025-07-06_12-54-31_eunlzk.jpg?auto=compress&cs=tinysrgb&w=800",
+    "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046381/photo_2025-07-06_12-53-41_kuzow2.jpg?auto=compress&cs=tinysrgb&w=800",
+    "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046386/photo_2025-07-06_12-54-31_eunlzk.jpg?auto=compress&cs=tinysrgb&w=800"
   ];
 
   return (
@@ -69,7 +69,7 @@ const Home = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046395/photo_2025-07-06_12-55-04_ma8k3d.jpg?auto=compress&cs=tinysrgb&w=1920"
             alt="Water well drilling operation"
             className="hero-image"
           />
@@ -79,45 +79,43 @@ const Home = () => {
 
         <div className="relative z-10 container mx-auto px-6 text-white">
           <div className="max-w-4xl">
-            <div className="animate-fade-in-up">
+            <div className="animate-fade-in-down mt-24 md:mt-40">
               <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-tight">
-                Empowering Development with{' '}
-                <span className="text-primary-red">Precision Water Well Solutions</span>
-              </h1>
-              
-              <p className="text-2xl md:text-3xl mb-12 text-gray-200 max-w-3xl">
-                Professional water well drilling services across Ethiopia with state-of-the-art equipment and certified expertise
-              </p>
+              Empowering Development with{' '}
+              <span className="text-primary-red">Precision Water Well Solutions</span>
+              </h1>                        
 
               <div className="flex flex-col sm:flex-row gap-6 mb-16">
-                <Link
-                  to="/contact"
-                  className="bg-primary-red hover:bg-deep-red text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 flex items-center justify-center space-x-3 hover:scale-105 shadow-2xl"
-                >
-                  <span>Request a Quote</span>
-                  <ArrowRight className="h-6 w-6" />
-                </Link>
-                <Link
-                  to="/projects"
-                  className="bg-white/10 backdrop-blur-sm border-2 border-white text-white hover:bg-white hover:text-gray-900 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 hover:scale-105 flex items-center justify-center space-x-3"
-                >
-                  <Play className="h-5 w-5" />
-                  <span>View Our Work</span>
-                </Link>
+              <Link
+              to="/contact"
+              className="bg-primary-red hover:bg-deep-red text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 flex items-center justify-center space-x-3 hover:scale-105 shadow-2xl"
+              >
+              <span>Request a Quote</span>
+              <ArrowRight className="h-6 w-6" />
+              </Link>
+              <Link
+              to="/projects"
+              className="bg-white/10 backdrop-blur-sm border-2 border-white text-white hover:bg-white hover:text-gray-900 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 hover:scale-105 flex items-center justify-center space-x-3"
+              >
+              <Play className="h-5 w-5" />
+              <span>View Our Work</span>
+              </Link>
               </div>
             </div>
 
             {/* Floating Stats Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl">
+            <div className="flex justify-center">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl">
               {benefits.map((benefit, index) => (
                 <div key={index} className="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  <div className="text-primary-red mb-4">
-                    {benefit.icon}
-                  </div>
-                  <h3 className="font-bold text-xl mb-3">{benefit.title}</h3>
-                  <p className="text-gray-200">{benefit.description}</p>
+                <div className="text-primary-red mb-4">
+                  {benefit.icon}
+                </div>
+                <h3 className="font-bold text-xl mb-3">{benefit.title}</h3>
+                <p className="text-gray-200">{benefit.description}</p>
                 </div>
               ))}
+              </div>
             </div>
           </div>
         </div>
@@ -262,7 +260,7 @@ const Home = () => {
       <section className="image-section-spacing bg-gray-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img 
-            src="https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048809/1_uiw0ra.jpg?auto=compress&cs=tinysrgb&w=1920"
             alt="Equipment background"
             className="w-full h-full object-cover"
           />
@@ -298,7 +296,7 @@ const Home = () => {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048820/5_gstrd5.jpg?auto=compress&cs=tinysrgb&w=1920"
             alt="Water well project"
             className="w-full h-full object-cover"
           />
