@@ -8,7 +8,7 @@ const Services = () => {
       icon: <Drill className="h-8 w-8" />,
       title: "Deep & Shallow Water Well Drilling",
       description: "Professional drilling services up to 1000m depth using advanced Super Rock RS-5000 rig technology",
-      image: "https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048818/2_s9zrjv.jpg?auto=compress&cs=tinysrgb&w=1200",
       features: [
         "Up to 1000m drilling capability",
         "Advanced Super Rock RS-5000 rig",
@@ -29,7 +29,7 @@ const Services = () => {
       icon: <Wrench className="h-8 w-8" />,
       title: "Well Rehabilitation & Pump Testing",
       description: "Comprehensive diagnosis, development, and reactivation of existing water wells",
-      image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046385/photo_2025-07-06_12-52-17_uszk6l.jpg?auto=compress&cs=tinysrgb&w=1200",
       features: [
         "Well diagnosis and assessment",
         "Development and reactivation",
@@ -50,7 +50,7 @@ const Services = () => {
       icon: <Search className="h-8 w-8" />,
       title: "Hydrogeological & Geophysical Investigations",
       description: "Comprehensive site investigation, logging, formation sampling, and aquifer testing services",
-      image: "https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048809/1_uiw0ra.jpg?auto=compress&cs=tinysrgb&w=1200",
       features: [
         "Site investigation services",
         "Formation sampling and logging",
@@ -71,7 +71,7 @@ const Services = () => {
       icon: <Users className="h-8 w-8" />,
       title: "Consultancy & Supervision",
       description: "End-to-end project oversight with professional geological reporting and technical recommendations",
-      image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048818/3_fyqzvp.jpg?auto=compress&cs=tinysrgb&w=1200",
       features: [
         "Project oversight and management",
         "Geological reporting",
@@ -92,7 +92,7 @@ const Services = () => {
       icon: <Beaker className="h-8 w-8" />,
       title: "Water Quality Analysis",
       description: "Complete physicochemical and biological testing to ensure safe and potable water supply",
-      image: "https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046369/photo_2025-07-06_12-52-17_2_fb8rml.jpg?auto=compress&cs=tinysrgb&w=1200",
       features: [
         "Physicochemical testing",
         "Biological analysis",
@@ -117,21 +117,21 @@ const Services = () => {
       quote: "Exceptional drilling service with professional execution. Our 300m well was completed ahead of schedule.",
       author: "Amref Project Manager",
       project: "Awash Sebat Water Project",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752050226/photo_2024-12-19_00-51-56_bw4ktg.jpg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       service: "Well Rehabilitation",
       quote: "They successfully rehabilitated our old well, increasing water yield by 200%. Outstanding technical expertise.",
       author: "Miskir Abate",
       project: "Addisu Gebeya Well Rehabilitation",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752050226/photo_2024-12-19_00-51-56_bw4ktg.jpg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       service: "Water Quality Testing",
       quote: "Comprehensive testing and detailed reporting helped us ensure safe water for our community.",
       author: "Local Government Official",
       project: "Community Water Safety Project",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752050226/photo_2024-12-19_00-51-56_bw4ktg.jpg?auto=compress&cs=tinysrgb&w=400"
     }
   ];
 
@@ -159,7 +159,7 @@ const Services = () => {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046386/photo_2025-07-06_12-54-31_eunlzk.jpg?auto=compress&cs=tinysrgb&w=1920"
             alt="Our Services"
             className="hero-image"
           />
@@ -416,7 +416,7 @@ const Services = () => {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752046395/photo_2025-07-06_12-55-04_ma8k3d.jpg?auto=compress&cs=tinysrgb&w=1920"
             alt="Ready to start"
             className="w-full h-full object-cover"
           />
