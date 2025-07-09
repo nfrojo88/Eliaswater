@@ -26,7 +26,7 @@ const Footer = () => {
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <img 
-          src="https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1752048829/6_emwdwc.jpg?auto=compress&cs=tinysrgb&w=1920"
           alt="Background pattern"
           className="w-full h-full object-cover"
         />
